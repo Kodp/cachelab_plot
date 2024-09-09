@@ -1,132 +1,134 @@
-L 10d140,4 miss 
-S 14d0d0,4 miss eviction 
-L 10d144,4 hit 
-S 14d0f0,4 miss 
-L 10d148,4 hit 
-S 14d110,4 miss 
-L 10d14c,4 hit 
-S 14d130,4 miss 
-L 10d150,4 hit 
-S 14d150,4 miss eviction 
-L 10d154,4 miss eviction 
-S 14d170,4 miss eviction 
-L 10d158,4 hit 
-S 14d190,4 miss 
-L 10d15c,4 hit 
-S 14d1b0,4 miss 
-L 10d160,4 miss eviction 
-S 14d0d4,4 hit 
-L 10d164,4 hit 
-S 14d0f4,4 hit 
-L 10d168,4 hit 
-S 14d114,4 hit 
-L 10d16c,4 hit 
-S 14d134,4 hit 
-L 10d170,4 hit 
-S 14d154,4 miss eviction 
-L 10d174,4 hit 
-S 14d174,4 miss eviction 
-L 10d178,4 miss eviction 
-S 14d194,4 hit 
-L 10d17c,4 hit 
-S 14d1b4,4 hit 
-
-L 10d180,4 miss eviction 
-S 14d0d8,4 hit 
-L 10d184,4 hit 
-S 14d0f8,4 hit 
-L 10d188,4 hit 
-S 14d118,4 hit 
-L 10d18c,4 hit 
-S 14d138,4 hit 
-L 10d190,4 hit 
-S 14d158,4 hit 
-L 10d194,4 hit 
-S 14d178,4 miss eviction 
-L 10d198,4 hit 
-S 14d198,4 miss eviction 
-L 10d19c,4 miss eviction 
-S 14d1b8,4 hit 
-L 10d1a0,4 miss eviction 
-S 14d0dc,4 hit 
-L 10d1a4,4 hit 
-S 14d0fc,4 hit 
-L 10d1a8,4 hit 
-S 14d11c,4 hit 
-L 10d1ac,4 hit 
-S 14d13c,4 hit 
-L 10d1b0,4 hit 
-S 14d15c,4 hit 
-L 10d1b4,4 hit 
-S 14d17c,4 hit 
-L 10d1b8,4 hit 
-S 14d19c,4 miss eviction 
-L 10d1bc,4 hit 
-S 14d1bc,4 miss eviction 
-L 10d0dc,4 miss eviction 
-S 14d1a0,4 hit 
-L 10d0d8,4 hit 
-S 14d180,4 hit 
-L 10d0d4,4 hit 
-S 14d160,4 hit 
-L 10d0d0,4 hit 
-S 14d140,4 hit 
-L 10d0cc,4 hit 
-S 14d120,4 hit 
-L 10d0c8,4 hit 
-S 14d100,4 hit 
-L 10d0c4,4 hit 
-S 14d0e0,4 hit 
-L 10d0c0,4 hit 
-S 14d0c0,4 miss eviction 
-L 10d0fc,4 miss eviction 
-S 14d1a4,4 hit 
-L 10d0f8,4 hit 
-S 14d184,4 hit 
-L 10d0f4,4 hit 
-S 14d164,4 hit 
-L 10d0f0,4 hit 
-S 14d144,4 hit 
-L 10d0ec,4 hit 
-S 14d124,4 hit 
-L 10d0e8,4 hit 
-S 14d104,4 hit 
-L 10d0e4,4 hit 
-S 14d0e4,4 miss eviction 
-L 10d0e0,4 miss eviction 
-S 14d0c4,4 hit 
-L 10d11c,4 miss eviction 
-S 14d1a8,4 hit 
-L 10d118,4 hit 
-S 14d188,4 hit 
-L 10d114,4 hit 
-S 14d168,4 hit 
-L 10d110,4 hit 
-S 14d148,4 hit 
-L 10d10c,4 hit 
-S 14d128,4 hit 
-L 10d108,4 hit 
-S 14d108,4 miss eviction 
-L 10d104,4 miss eviction 
-S 14d0e8,4 miss eviction 
-L 10d100,4 hit 
-S 14d0c8,4 hit 
-L 10d13c,4 miss eviction 
-S 14d1ac,4 hit 
-L 10d138,4 hit 
-S 14d18c,4 hit 
-L 10d134,4 hit 
-S 14d16c,4 hit 
-L 10d130,4 hit 
-S 14d14c,4 hit 
-L 10d12c,4 hit 
-S 14d12c,4 miss eviction 
-L 10d128,4 miss eviction 
-S 14d10c,4 miss eviction 
-L 10d124,4 hit 
-S 14d0ec,4 hit 
-L 10d120,4 hit 
-S 14d0cc,4 hit 
-S 10d0a1,1 hit 
-
-hits:96 misses:37 evictions:28
+S 10e080,1 miss 
+L 18e0c0,8 miss 
+L 18e0a4,4 miss 
+L 18e0a0,4 hit 
+L 10e0a0,4 miss eviction 
+S 14e0a0,4 miss eviction 
+L 10e0a4,4 miss eviction 
+S 14e0c0,4 miss eviction 
+L 10e0a8,4 hit 
+S 14e0e0,4 miss 
+L 10e0ac,4 hit 
+S 14e100,4 miss 
+L 10e0b0,4 hit 
+S 14e120,4 miss 
+L 10e0b4,4 hit 
+S 14e140,4 miss 
+L 10e0b8,4 hit 
+S 14e160,4 miss 
+L 10e0bc,4 hit 
+S 14e180,4 miss 
+L 10e0c0,4 miss eviction 
+S 14e0a4,4 miss eviction 
+L 10e0c4,4 hit 
+S 14e0c4,4 miss eviction 
+L 10e0c8,4 miss eviction 
+S 14e0e4,4 hit 
+L 10e0cc,4 hit 
+S 14e104,4 hit 
+L 10e0d0,4 hit 
+S 14e124,4 hit 
+L 10e0d4,4 hit 
+S 14e144,4 hit 
+L 10e0d8,4 hit 
+S 14e164,4 hit 
+L 10e0dc,4 hit 
+S 14e184,4 hit 
+L 10e0e0,4 miss eviction 
+S 14e0a8,4 hit 
+L 10e0e4,4 hit 
+S 14e0c8,4 miss eviction 
+L 10e0e8,4 hit 
+S 14e0e8,4 miss eviction 
+L 10e0ec,4 miss eviction 
+S 14e108,4 hit 
+L 10e0f0,4 hit 
+S 14e128,4 hit 
+L 10e0f4,4 hit 
+S 14e148,4 hit 
+L 10e0f8,4 hit 
+S 14e168,4 hit 
+L 10e0fc,4 hit 
+S 14e188,4 hit 
+L 10e100,4 miss eviction 
+S 14e0ac,4 hit 
+L 10e104,4 hit 
+S 14e0cc,4 hit 
+L 10e108,4 hit 
+S 14e0ec,4 miss eviction 
+L 10e10c,4 hit 
+S 14e10c,4 miss eviction 
+L 10e110,4 miss eviction 
+S 14e12c,4 hit 
+L 10e114,4 hit 
+S 14e14c,4 hit 
+L 10e118,4 hit 
+S 14e16c,4 hit 
+L 10e11c,4 hit 
+S 14e18c,4 hit 
+L 10e120,4 miss eviction 
+S 14e0b0,4 hit 
+L 10e124,4 hit 
+S 14e0d0,4 hit 
+L 10e128,4 hit 
+S 14e0f0,4 hit 
+L 10e12c,4 hit 
+S 14e110,4 miss eviction 
+L 10e130,4 hit 
+S 14e130,4 miss eviction 
+L 10e134,4 miss eviction 
+S 14e150,4 hit 
+L 10e138,4 hit 
+S 14e170,4 hit 
+L 10e13c,4 hit 
+S 14e190,4 hit 
+L 10e140,4 miss eviction 
+S 14e0b4,4 hit 
+L 10e144,4 hit 
+S 14e0d4,4 hit 
+L 10e148,4 hit 
+S 14e0f4,4 hit 
+L 10e14c,4 hit 
+S 14e114,4 hit 
+L 10e150,4 hit 
+S 14e134,4 miss eviction 
+L 10e154,4 hit 
+S 14e154,4 miss eviction 
+L 10e158,4 miss eviction 
+S 14e174,4 hit 
+L 10e15c,4 hit 
+S 14e194,4 hit 
+L 10e160,4 miss eviction 
+S 14e0b8,4 hit 
+L 10e164,4 hit 
+S 14e0d8,4 hit 
+L 10e168,4 hit 
+S 14e0f8,4 hit 
+L 10e16c,4 hit 
+S 14e118,4 hit 
+L 10e170,4 hit 
+S 14e138,4 hit 
+L 10e174,4 hit 
+S 14e158,4 miss eviction 
+L 10e178,4 hit 
+S 14e178,4 miss eviction 
+L 10e17c,4 miss eviction 
+S 14e198,4 hit 
+L 10e180,4 miss eviction 
+S 14e0bc,4 hit 
+L 10e184,4 hit 
+S 14e0dc,4 hit 
+L 10e188,4 hit 
+S 14e0fc,4 hit 
+L 10e18c,4 hit 
+S 14e11c,4 hit 
+L 10e190,4 hit 
+S 14e13c,4 hit 
+L 10e194,4 hit 
+S 14e15c,4 hit 
+L 10e198,4 hit 
+S 14e17c,4 miss eviction 
+L 10e19c,4 hit 
+S 14e19c,4 miss eviction 
+S 10e081,1 hit 
+hits:93 misses:40 evictions:31

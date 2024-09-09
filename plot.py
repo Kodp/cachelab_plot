@@ -12,7 +12,6 @@ base_address 和 threshold_address 会自动计算。
 运行后，按 p 键暂停，再按 p 键继续，按 ESC 键退出。
 暂不支持非正方形矩阵。
 """
-import re
 import cv2
 import numpy as np
 import os
@@ -79,7 +78,7 @@ def display_matrices(a_matrix, b_matrix, current_row, current_col, operation, sc
         cv2.imwrite(os.path.join(output_path, f'frame_{frame_count:04d}.png'), combined_image)
     else:
         cv2.imshow('Cache Matrix', combined_image)                
-        key = cv2.waitKey(1)
+        key = cv2.waitKey(3)   # @  change the speed of the display
         if key == 27:
             return False
         if key == ord('p'):
