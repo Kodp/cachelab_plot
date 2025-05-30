@@ -1,6 +1,11 @@
 # Cachelab 可视化脚本
-
 这个仓库包含两个Python脚本，用于帮助理解和可视化缓存内存的行为：`cache_range.py` 和 `sim2.py`。
+
+图例：
+![alt text](img/image.png)
+
+![alt text](img/image-1.png)
+
 
 ## 1. `cache_range.py`
 
