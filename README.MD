@@ -112,7 +112,7 @@ python3 sim2.py -r <ROWS> -c <COLS> -f <FILE_PATH> [可选参数]
 
 - `-S`/`--save-images`: 保存每一帧图像到磁盘（默认不保存）。图像将保存到 `/tmp/<ROWS>x<COLS>-cache_footprint-<trace_filename>` 目录下。
 - `-n`/`--no-display`: 关闭实时显示窗口（默认显示）。
-- `-F`/`--fast`: 快速模式，禁用暂停控制，动画会连续播放（默认启用暂停控制）。
+- `-F`/`--fast`: 快速模式，动画会快速播放（默认启用暂停控制）。
 
 **示例：**
 
