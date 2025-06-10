@@ -214,6 +214,10 @@ def visualize_cache_mapping(s, E, b, N, M, offset_B=0x40000, element_size_bytes=
     )
     # Adjust top/bottom margins for suptitle and labels
     fig.subplots_adjust(top=0.90, bottom=0.1)
+    
+    if args.save_image:
+        plt.savefig(f"visualize-cache-mapping-{N}x{M}-s{s}-E{E}-b{b}.png", bbox_inches='tight')
+        print(f"Image saved as 'visualize-cache-mapping-{N}x{M}-s{s}-E{E}-b{b}.png'")
 
     plt.show()
 
@@ -236,6 +240,8 @@ def init_argparse():
         help="Starting offset for Matrix B (hex string, e.g., '0x40000'). Defaults to 0x40000 (262144 bytes).",)
     parser.add_argument("--element_size", type=int, default=4,
         help="Size of each matrix element in bytes (e.g., 4 for int). Defaults to 4.",)
+    parser.add_argument("-S", "--save-image", action="store_true", default=False, 
+        help="Save the image to the current directory.")
     return parser
 
 # --- Entry point for command-line execution ---
