@@ -49,6 +49,7 @@ def parse_args() -> argparse.Namespace:
   parser.add_argument("-S", "--save-images", action="store_true", help="保存图像到磁盘", default=False)
   parser.add_argument("-n", "--no-display", action="store_true", help="关闭显示窗口", default=False)
   parser.add_argument("-F", "--fast", action="store_true", help="快速模式（禁用暂停控制）", default=False,)
+  parser.add_argument("-w", "--wait-ms", type=int, required=False, help="设置每一帧之间的等待间隔(ms)", default=350)
   return parser.parse_args()
 
 
@@ -156,13 +157,14 @@ def draw_combined_image(
 def display_frame(
     image: np.ndarray,
     fast_mode: bool,
+    wait_ms: int
 ) -> bool:
     """显示帧并处理用户输入"""
     cv2.imshow("Cache Matrix", image)
     if fast_mode:
         return cv2.waitKey(1) != 27  # ESC 键检测
     
-    key = cv2.waitKey(350)
+    key = cv2.waitKey(wait_ms)
     if key == 27:  # ESC
         return False
     if key == ord("p"):  # 暂停控制
@@ -222,7 +224,7 @@ def main():
       
       # 显示/保存处理
       if not args.no_display and not args.save_images:
-        if not display_frame(combined_img, args.fast):
+        if not display_frame(combined_img, args.fast, args.wait_ms):
             break
       if args.save_images:
           save_frame(combined_img, output_dir, frame_count)
